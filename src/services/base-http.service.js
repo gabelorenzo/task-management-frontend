@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 export default class BaseHttpService {
+  // TODO: When this is deploy to S3, have BASE_URL point to the Elastic Beanstalk Production Environment Endpoint
   BASE_URL = 'http://localhost:3000';
   _accessToken = null;
 
